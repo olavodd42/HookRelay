@@ -1,0 +1,46 @@
+# Dependencies
+**/node_modules/
+
+# NestJS and TypeScript build output
+**/dist/
+*.tsbuildinfo
+
+# Test and coverage output
+**/coverage/
+**/.nyc_output/
+
+# Environment files and local secrets
+.env
+.env.*
+!.env.example
+
+# Logs and runtime files
+*.log
+**/logs/
+**/pids/
+**/*.pid
+**/*.pid.lock
+
+# Local databases and Docker data
+*.sqlite
+*.sqlite3
+*.db
+**/docker-data/
+
+# Editor and operating-system files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo

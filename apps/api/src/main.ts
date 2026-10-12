@@ -24,4 +24,4 @@ async function bootstrap() {
   // Start the application and listen on the port specified in the environment configuration
   await app.listen(env.PORT);
 }
-bootstrap();
+void bootstrap();
